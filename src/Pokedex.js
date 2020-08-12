@@ -7,9 +7,9 @@ class Pokedex extends Component {
 		let title
 
 		if (this.props.results) {
-			title = <h1 className='Pokedex-winner'>Winning Hand</h1>
+			title = <h1 className='Pokedex-winner'>Winning Hand!</h1>
 		} else {
-			title = <h1 className='Pokedex-loser'>Losing Hand</h1>
+			title = <h1 className='Pokedex-loser'>Losing Hand!</h1>
 		}
 
 		return (
